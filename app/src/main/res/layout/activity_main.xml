@@ -6,21 +6,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@color/colorPrimaryDark">
+    android:gravity="center_horizontal">
 
     <TextView
         android:id="@+id/txtSpeechInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:textSize="26sp"
-        android:textStyle="normal"
-        android:textColor="#ffffff"/>
+        android:layout_marginBottom="100dp"
+        android:textSize="26sp"/>
 
     <Button
         android:id="@+id/btnStartSpeech"
         android:text="@string/tap_on_mic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtSpeechResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="26sp"/>
 
 </LinearLayout>
